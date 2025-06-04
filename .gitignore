@@ -1,0 +1,10 @@
+# Secrets 
+.env 
+.env-*
+*.env
+*.json
+
+# VS code / codespaces
+.codespaces/
+.vscode/
+node_modules/
