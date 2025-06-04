@@ -1,0 +1,41 @@
+2025-06-04 04:04:48.812Z: Host information
+2025-06-04 04:04:48.825Z: ----------------
+2025-06-04 04:04:48.829Z: OS: Ubuntu 22.04.5 LTS (stable release)
+2025-06-04 04:04:48.835Z: Image details: https://github.com/github/codespaces-host-images/blob/main/README.md
+2025-06-04 04:04:48.835Z: ----------------
+
+=================================================================================
+2025-06-04 04:04:48.836Z: Configuration starting...
+2025-06-04 04:04:48.980Z: Cloning...
+2025-06-04 04:04:48.980Z: Using image: mcr.microsoft.com/devcontainers/universal
+
+=================================================================================
+2025-06-04 04:04:48.980Z: Creating container...
+2025-06-04 04:04:49.032Z: $ devcontainer up --id-label Type=codespaces --workspace-folder /var/lib/docker/codespacemount/workspace/SweatSpark --mount type=bind,source=/.codespaces/agent/mount/cache,target=/vscode --user-data-folder /var/lib/docker/codespacemount/.persistedshare --container-data-folder .vscode-remote/data/Machine --container-system-data-folder /var/vscode-remote --log-level trace --log-format json --update-remote-user-uid-default never --mount-workspace-git-root false --omit-config-remote-env-from-metadata --skip-non-blocking-commands --skip-post-create --expect-existing-container --override-config /root/.codespaces/shared/merged_devcontainer.json --default-user-env-probe loginInteractiveShell --container-session-data-folder /workspaces/.codespaces/.persistedshare/devcontainers-cli/cache --secrets-file /root/.codespaces/shared/user-secrets-envs.json
+2025-06-04 04:04:49.314Z: @devcontainers/cli 0.76.0. Node.js v18.20.8. linux 6.8.0-1027-azure x64.
+2025-06-04 04:04:49.730Z: $ docker start 1d2808cbe80969415ab955e2abb2f0b877cbbc3fcaa1b2a8dd40e9c1222c11ed
+2025-06-04 04:04:50.167Z: 1d2808cbe80969415ab955e2abb2f0b877cbbc3fcaa1b2a8dd40e9c1222c11ed
+
+2025-06-04 04:04:50.169Z: Stop: Run: docker start 1d2808cbe80969415ab955e2abb2f0b877cbbc3fcaa1b2a8dd40e9c1222c11ed
+2025-06-04 04:04:50.608Z: Outcome: success User: codespace WorkspaceFolder: /workspaces/SweatSpark
+2025-06-04 04:04:50.618Z: devcontainer process exited with exit code 0
+
+=================================================================================
+2025-06-04 04:04:51.193Z: Running blocking commands...
+2025-06-04 04:04:51.193Z: $ devcontainer up --id-label Type=codespaces --workspace-folder /var/lib/docker/codespacemount/workspace/SweatSpark --mount type=bind,source=/.codespaces/agent/mount/cache,target=/vscode --user-data-folder /var/lib/docker/codespacemount/.persistedshare --container-data-folder .vscode-remote/data/Machine --container-system-data-folder /var/vscode-remote --log-level trace --log-format json --update-remote-user-uid-default never --mount-workspace-git-root false --omit-config-remote-env-from-metadata --skip-non-blocking-commands --expect-existing-container --override-config /root/.codespaces/shared/merged_devcontainer.json --default-user-env-probe loginInteractiveShell --container-session-data-folder /workspaces/.codespaces/.persistedshare/devcontainers-cli/cache --secrets-file /root/.codespaces/shared/user-secrets-envs.json
+2025-06-04 04:04:51.472Z: @devcontainers/cli 0.76.0. Node.js v18.20.8. linux 6.8.0-1027-azure x64.
+2025-06-04 04:04:51.936Z: Outcome: success User: codespace WorkspaceFolder: /workspaces/SweatSpark
+2025-06-04 04:04:52.027Z: devcontainer process exited with exit code 0
+
+=================================================================================
+2025-06-04 04:04:52.090Z: Configuring codespace...
+
+=================================================================================
+2025-06-04 04:04:52.090Z: Running commands...
+2025-06-04 04:04:52.090Z: $ devcontainer up --id-label Type=codespaces --workspace-folder /var/lib/docker/codespacemount/workspace/SweatSpark --expect-existing-container --skip-post-attach --mount type=bind,source=/.codespaces/agent/mount/cache,target=/vscode --container-data-folder .vscode-remote/data/Machine --container-system-data-folder /var/vscode-remote --log-level trace --log-format json --update-remote-user-uid-default never --mount-workspace-git-root false --override-config /root/.codespaces/shared/merged_devcontainer.json --default-user-env-probe loginInteractiveShell --container-session-data-folder /workspaces/.codespaces/.persistedshare/devcontainers-cli/cache --secrets-file /root/.codespaces/shared/user-secrets-envs.json
+2025-06-04 04:04:52.718Z: @devcontainers/cli 0.76.0. Node.js v18.20.8. linux 6.8.0-1027-azure x64.
+2025-06-04 04:04:52.833Z: Outcome: success User: codespace WorkspaceFolder: /workspaces/SweatSpark
+2025-06-04 04:04:52.855Z: devcontainer process exited with exit code 0
+
+=================================================================================
+2025-06-04 04:04:53.022Z: Finished configuring codespace.
